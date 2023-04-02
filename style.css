@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 150px;
+    width: 100%;
+    background-color: pink;
+}
+
+.container {
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 50vh);
+
+    grid-gap: 10px;
+    margin: 20px 100px 0 100px;
+
+}
+
+#item1 {
+    background-color: black;
+}
+
+#item2 {
+    background-color: red;
+    
+}
+
+#item3 {
+    background-color: green;
+}
+
+#item4 {
+    background-color: gray;
+}
+
+#item5 {
+    background-color: orange;
+}
+
+
+
